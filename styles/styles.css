@@ -60,7 +60,7 @@ body {
     display: flex;
     font-size: 60px;
     text-transform: uppercase;
-    background-image: url(../habitacion.jfif);
+    background-image: url(../images/habitacion.jfif);
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -78,7 +78,7 @@ body {
     display: flex;
     font-size: 60px;
     text-transform: uppercase;
-    background-image: url(../baño.avif);
+    background-image: url(../images/baño.avif);
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -97,7 +97,7 @@ body {
     display: flex;
     font-size: 60px;
     text-transform: uppercase;
-    background-image: url(../cocina.png);
+    background-image: url(../images/cocina.png);
     background-size: cover;
     width: 100%;
     height: 100%;
