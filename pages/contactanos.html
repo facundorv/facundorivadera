@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,39 +17,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
-
-
 </head>
 
 <body>
+    
 
-
+    
     <div class="titulo">
         <h1 class="casaideal">Casa Ideal</h1>
     </div>
-    <nav class="navbar navbar-expand-lg " style="background-color: #8b7271;">
+    <nav class="navbar navbar-expand-lg "style="background-color: #8b7271;">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page"style="color:#cbd4c2;" href="./index.html">inicio</a>
+                        <a class="nav-link active" aria-current="page" style="color:#cbd4c2;"href="./index.html">inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" style="color:#cbd4c2;"href="./categorias.html">categorias</a>
+                        <a class="nav-link active" aria-current="page"style="color:#cbd4c2;" href="./categorias.html">categorias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" style="color:#cbd4c2;"href="./promociones.html">promociones</a>
+                        <a class="nav-link active" aria-current="page"style="color:#cbd4c2;" href="./promociones.html">promociones</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page"style="color:#cbd4c2;" href="./contactanos.html">contactanos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" style="color:#cbd4c2;"href="./Mi-cuenta.html">mi cuenta</a>
+                        <a class="nav-link active" aria-current="page"style="color:#cbd4c2;" href="./Mi-cuenta.html">mi cuenta</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -59,12 +59,25 @@
             </div>
         </div>
     </nav>
-
-    </div>
-    <div class="contenedor">
-        <div class="cocina">cocina</div>
-        <div class="baño">baño</div>
-        <div class="habitacion">habitacion</div>
+    <div class="container mt-5">
+        <h2>Formulario de Contacto</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Introduce tu nombre" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Introduce tu correo electrónico" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
     </div>
     <footer class="bg-dark text-white mt-5"></footer>
         <div style="background-color: #8b7271;" class="container py-4">
@@ -96,6 +109,7 @@
             </div>
         </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
